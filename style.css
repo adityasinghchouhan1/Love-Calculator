@@ -1,0 +1,363 @@
+@media (min-width:767px){
+    body { 
+          background-color:red;
+        }
+    }
+
+    @media (min-width:767px){
+        .maindiv{
+            position: relative;
+            height: 625px;
+            width: 1345px;
+        }
+        }
+
+.backpic{
+    position: absolute;
+    height: 635px;
+    width: 1350px;
+    left: 8px;
+}
+
+@media (min-width:767px){
+    .lable{
+        position: absolute;
+        top: 5px;
+        left: 500px;
+        font-size: 50px;
+        color: gold;
+        filter: drop-shadow(6px 5px 12px gold);
+        text-shadow: 3px 1px rgba(0, 0, 0, 0.671);
+    }
+    }
+
+    @media (min-width:575px){
+        .namebox{
+            position: absolute;
+            top: 200px;
+            left: 80px;
+            font-size: 20px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+    }
+
+
+    
+    @media (min-width:575px){
+       
+.namebox2{
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+    }
+
+
+
+.button{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:transparent;
+    border: 2px solid rgb(3, 3, 211);
+    top: 450px;
+    left: 255px;
+}
+.c-btn:hover{
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    filter: drop-shadow(0px 0px 10px rgb(245, 5, 213));
+}
+.result{
+    position: absolute;
+    top: 318px;
+    left: 249px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.644);
+}
+
+.result2{
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    top: 400px;
+    left: 165px;
+    font-size: 19px;
+    color:rgb(240, 6, 220);
+    text-shadow: 2px 0px 4px blue;
+}
+
+.resultheart{
+    position: absolute;
+    height: 150px;
+    width: 120px;
+    top: 270px;
+    left: 250px;
+    filter: drop-shadow(3px 3px 12px blue);
+} 
+
+.heart{
+    position: absolute;
+    width: 50px;
+    left: 866px;
+    top: 380px;
+    transform: translate(-50%,-50%);
+    animation: heart ease-in-out 2s infinite;
+    filter: drop-shadow(0px 0px 3px rgb(255, 0, 179));
+}
+
+@keyframes heart{
+    0%{ width: 50px;
+    }
+    50%{width: 66px;
+    }
+    100%{width: 50px;}
+}
+
+
+.star{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 866px;
+    top: 100px;
+    transform: translate(-50%,-50%);
+    animation: star ease-in-out 2s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 26px; height: 27px;
+    }
+    100%{width: 5px; height: 5px;
+    }
+}
+
+.star2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 1110px;
+    top: 90px;
+    transform: translate(-50%,-50%);
+    animation: star ease-in-out 2s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 29px; height: 29px;
+    }
+    100%{width: 5px;height: 5px;
+    }
+}
+
+.star3{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 980px;
+    top: 95px;
+    transform: translate(-50%,-50%);
+    animation: star3 ease-in-out 2s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star3{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 25px; height: 25px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+
+.star4{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 650px;
+    top: 155px;
+    transform: translate(-50%,-50%);
+    animation: star4 ease-in-out 2s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star4{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 27px; height: 27px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+
+.star5{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 700px;
+    top: 100px;
+    transform: translate(-50%,-50%);
+    animation: star5 ease-in-out 2.4s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star5{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 25px; height: 28px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+
+
+
+.star6{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 700px;
+    top: 200px;
+    transform: translate(-50%,-50%);
+    animation: star6 ease-in-out 1.5s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star6{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 30px; height: 30px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+.star7{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 867px;
+    top: 200px;
+    transform: translate(-50%,-50%);
+    animation: star7 ease-in-out 1.9s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star7{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 25px; height: 25px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+.star8{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 975px;
+    top: 195px;
+    transform: translate(-50%,-50%);
+    animation: star8 ease-in-out 2.3s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star8{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 28px; height: 29px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+.star9{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 770px;
+    top: 170px;
+    transform: translate(-50%,-50%);
+    animation: star9 ease-in-out 1.6s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+
+}
+
+@keyframes star9{
+    0%{ width: 5px;     
+        height: 5px;
+    }
+    50%{width: 28px; height: 28px;
+    }
+    100%{width: 5px;     height: 5px;
+    }
+}
+
+.star10{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 700px;
+    top: 250px;
+    transform: translate(-50%,-50%);
+    animation: star9 ease-in-out 2.5s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+}
+
+.star11{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 900px;
+    top: 150px;
+    transform: translate(-50%,-50%);
+    animation: star9 ease-in-out 1.5s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+}
+.star12{
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    left: 1000px;
+    top: 150px;
+    transform: translate(-50%,-50%);
+    animation: star9 ease-in-out 2.5s infinite;
+    filter: drop-shadow(0px 0px 10px white);
+}
